@@ -1,0 +1,548 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ------------HEADER start------------- */
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: auto;
+}
+
+nav .list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav .list .list_item a {
+    font-family: "Rubik", sans-serif;
+    color: #4F5665;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s ease-out;
+}
+
+nav .list-item {
+    text-decoration: none;
+
+}
+
+nav .button_signin {
+    border: none;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+}
+
+nav .button_signup:hover {
+    color: #ffffff;
+    background-color: #F53855;
+}
+
+nav .button_signup {
+    border: 1px solid #F53855;
+    color: #F53855;
+    background-color: #ffffff;
+    font-family: "Rubik", sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+/* ------------HEADER end------------- */
+
+/*----------------MAIN START---------------*/
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*----------------INTRO start---------------*/
+#into {
+    width: 100%;
+    height: auto;
+}
+
+#into .wrapper {
+    width: 100%;
+    padding-top: 90px;
+    height: 810px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro .wrapper .wrapper_left {
+    padding-top: 100px;
+}
+
+#intro .wrapper .wrapper_left h1 {
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+    line-height: 75px;
+    margin-bottom: 24px;
+}
+
+#intro .wrapper .wrapper_left p {
+    font-size: 16px;
+    margin-bottom: 32px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+#intro .wrapper .wrapper_left button {
+    width: 219px;
+    height: 64px;
+    background-color: #F53855;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #F53855;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+#intro .wrapper .wrapper_left button:hover {
+    background-color: #fff;
+    color: #F53855;
+}
+
+#intro .wrapper .wrapper_left button:active {
+    background-color: #be4053;
+}
+
+#intro .wrapper .wrapper_right {
+    float: right;
+    width: 45%;
+}
+
+#intro .wrapper .wrapper_right img {
+    width: 563px;
+    height: auto;
+    margin-top: -1000px;
+}
+
+/*----------------INTRO end---------------*/
+
+/*--------------- INFO start---------------- */
+#info {
+    width: 100%;
+    height: auto;
+}
+
+#info .box .list ul li img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box-1 {
+    transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: 0.5s;
+}
+
+.box-1:hover {
+    box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+    transition: 0.5s;
+}
+
+.lists p {
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+}
+
+.lists h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.box {
+    box-shadow: 100px 100px 100px 10px #4F5665;
+}
+
+.lists {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    float: left;
+}
+
+/*--------------- INFO end---------------- */
+
+/* --------------FEATURES start----------- */
+#features {
+    width: 100%;
+    height: auto;
+}
+
+#features .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+#features .wrapper_right h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#features .wrapper_right p {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#features .wrapper_right ul li {
+    display: flex;
+    justify-content: flex-start;
+    row-gap: 15px;
+}
+
+#features .wrapper_left {
+    padding: 20px;
+}
+
+/* --------------FEATURES end----------- */
+
+/* --------------PLAN start----------- */
+#plan {
+    width: 100%;
+    height: auto;
+    background-color: #FAFAFA;
+}
+
+#plan .wrapper .wrapper_top {
+    padding: 80px;
+}
+
+#plan .wrapper .wrapper_top h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+#plan .wrapper .wrapper_top p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+}
+
+#plan .wrapper_down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+
+}
+
+#plan .box1 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 790px;
+    padding: 20px 30px;
+}
+
+#plan .box2 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px 30px;
+    height: 810px;
+}
+
+#plan .box3 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    padding: 20px 30px;
+    height: auto;
+}
+
+#plan .wrapper .wrapper_down .ptext {
+    gap: 20px;
+}
+
+#plan .wrapper .wrapper_down .ptext ul li {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20.17px;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+#plan .wrapper .wrapper_top p {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+
+}
+
+
+#plan .wrapper .wrapper_down .htext {
+    padding: 30px;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+#plan .wrapper .wrapper_down .img {
+    padding-top: 97px;
+}
+
+#plan .wrapper .wrapper_down .bottom h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+
+
+}
+
+#plan .wrapper .wrapper_down .bottom button {
+    width: 177px;
+    height: 45px;
+    background-color: #F53855;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 34px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+#plan .wrapper .wrapper_down .bottom button:hover {
+    background-color: #fff;
+    color: #F53855;
+    border: 1px solid #F53855;
+}
+
+/* --------------PLAN end----------- */
+
+
+/* --------------NETWORK START----------- */
+#network {
+    width: 100%;
+    height: auto;
+}
+
+#network .wrapper_top h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+#network .wrapper_top p {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+
+}
+
+#network .wrapper_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#network .wrapper_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+#network .wrapper {
+    padding-top: 150px;
+}
+
+#network .wrapper_logos ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+/* --------------NETWORK END----------- */
+
+
+/* --------------FOOTER START----------- */
+footer {
+    height: 100vh;
+    width: 100%;
+    background-color: #F8F8F8;
+
+    padding: 80px 13% 70px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+}
+
+footer .footer_content p {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+footer .footer_content1 h4 {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+footer .footer_content2 h4 {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+footer .footer_content3 h4 {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+footer .footer_content1 li {
+    margin-bottom: 10px;
+}
+
+footer .footer_content2 li {
+    margin-bottom: 10px;
+}
+
+footer .footer_content3 li {
+    margin-bottom: 10px;
+}
+
+footer .footer_content1 li a {
+    color: #757A85;
+    transition: all 0.4s ease;
+}
+
+footer .footer_content2 li a {
+    color: #757A85;
+    transition: all 0.4s ease;
+}
+
+footer .footer_content3 li a {
+    color: #757A85;
+    transition: all .40s ease;
+}
+
+footer .footer_content1 li a:hover {
+    transform: translateY(-3), translateX(-5);
+    columns: #fff;
+}
+
+footer .footer_content2 li a:hover {
+    transform: translateY(-3), translateX(-5);
+    columns: #fff;
+}
+
+footer .footer_content3 li a:hover {
+    transform: translateY(-3), translateX(-5);
+    columns: #fff;
+}
+
+
+/* --------------FOOTER END----------- */
